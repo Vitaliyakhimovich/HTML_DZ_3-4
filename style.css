@@ -1,0 +1,138 @@
+
+.top__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 460px;
+}
+.logo{
+    display: flex;
+    width: 137px;
+    height: 40px;
+    padding-right: 0.878px;
+    justify-content: center;
+    align-items: center;
+    gap: 14.792px;
+}
+.right__menu{
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+.right__menu>ul{
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+.right__menu>ul>li{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.right__menu>ul>li>a{
+    color: #000;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+
+.content{
+    width: 1174px; 
+    height: 375px; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    display: flex;
+    margin: 84px auto;
+}
+.content__meta{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+.title{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+.title__text{
+    color: #000;
+font-family: Inter;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 72px */
+}
+.title_text_next{
+    color: #888;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 28px */
+}
+.button__meta{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    align-self: stretch;
+}
+.button__meta>button{
+    display: flex;
+width: 140px;
+padding: 16px 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+border-radius: 56px;
+border: none;
+background: #F25822;
+box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.button__meta>div{
+    color: #AAA;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.home>img{
+    display: flex;
+    width: 545px;
+    height: 375px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 100px;
+}
+
+.brand_logo{
+    padding-top: 100px; 
+    padding-bottom: 100px; 
+    background: white; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 48px; 
+    display: flex
+}
+.brand_logo>img{
+    width: 134px; 
+    height: 50px
+}
